@@ -1,0 +1,19 @@
+
+1^2 equivalent to 1 mod n
+(n - 1)^2 equivalent = -1^2 = 1^2 equivalent to 1 mod n
+
+x^2 equivalent to 1 mod n
+n \ (x^2 - 1)
+n\ (x + 1) ( x - 1)
+x\ x+1 	n\ x-1
+
+x equivalent -1 mod n		x equivalent 1 mod n
+
+the number must be composite because they both share a factor.
+
+We find the factor by finding the gcd(n, x+1) and gcd(n, x-1)
+a^ n-1 not equivalent to 1 mod n, this is a witness of composite.
+x^2 equivalent to 1 mod n, this is a witness of composite.
+
+if b = 1, then everything else is one in the Miller - Rabin Algorithm
+if b = -1, then everything else is one in the Miller - Rabin Algorithm

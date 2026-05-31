@@ -1,0 +1,16 @@
+rk = g*i 
+rk+1 = g*j
+rk+2 = rk - qk+1 rk+1
+= g*i - gk+1 g*j
+rk+1 = g(1 - gk+1*i)
+
+
+IH: assume rm|ri+1 for some i
+rm | ri
+show rm | ri - 1
+ri+1 = ri-1 - qiri
+rm alpha = ri-i - qirmB
+rm alpha + q1rmB = rj-1
+rm(…) = rj-1
+rm|ri-1
+

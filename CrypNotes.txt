@@ -1,0 +1,12 @@
+phi(n) = (p-1)(q-1)
+phi(n) = pq - p -q + 1
+phi(n) - n = -p -q +1
+-(phi(n) - n -1) = p + q;
+
+gcd(a, n) = 1
+a^phi(n) =L 1 mod n
+s^2.4.5….B		2^(q-1)j mod q
+
+s^(p-1)k mod p
+2^b! =L 1 mod p
+p| 2^B! - 1 

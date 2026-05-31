@@ -1,0 +1,93 @@
+Exam #1 answers
+
+showing that d1((e1)e2) does not work with substitution
+
+k1 a -> b
+k2 b -> c
+k z -> c
+
+Onefactor algorithm:
+
+factor(n)
+
+f = onefactor(n)
+if f == 1 
+	print n
+else
+	m = n/f 
+	factor(m)
+	factor(f)
+end
+
+Explain why the method above runs in polynomial time?
+Every prime factor is at least two, the number of that prime factor is not going to be a long of the size of n, the hight of the whole tree is going to be bounded on the size of the input.
+
+modular method to compute m^(2^k):
+	m^13 =  m^8.m^4.m^1
+	modExp(n, m, k)
+		for i=1 to k
+ 			m = m.m mod n
+		end
+		m
+	end
+
+why this method computes m^2^k
+
+why does the above code runs in polynomial time?
+
+
+how many keys in a affine cipher alphabet  Z800
+phi(800) . 800
+2^3.100
+10^2
+(2.5)^2
+s^5.5^2
+(p^e - p^(e-1))
+(2^5 - 2^4) (5^2 - 5) . 800
+(32-18)(25-5)
+16.20
+
+how many keys for the shift cipher
+16
+how many possible keys for vigener 33 Z55
+55^33
+how many possible keys for an RSA n = 17.11
+phi(phi(n))
+
+phi(16.10) 
+phi(2^4 .2.5)
+phi(2^5 . 5^1)
+(2^5 - 2^4)(5^1 - 5^0)
+16.4 = 64
+
+sending two encrypted messages, same message, with different keys.
+how can Eave decrypt the message?
+ca = m^ea mod n
+cb = m^eb
+
+ea.s + eb.t = 1
+(m^ea)^s(m^eb)^t mod n
+m^eas + ebt = m^1 = m mod n
+
+Mountain cipher , compute XA + B
+	Y = XA + B
+	Y - B = XA
+	(Y-B)A^-1 = X
+
+Find the key
+Y1 = X1A + B
+Ym = XmA + B
+
+Y1 - Ym = X1A - XmA
+Y1 - Ym = (X1 - Xm)A
+
+
+class notes:
+
+(k^em)^d mod n
+k^ed m^d  mod n
+km^d mod n
+k^-1km^d mod n
+m^d mod n
+
+

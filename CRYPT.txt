@@ -1,0 +1,58 @@
+Cryptography Notes
+
+0 polynomial 
+4 encrypted to 17 and 19 encrypted to 3.
+17 = 4 alp +  B mod 26
+3 = 19alp + B mod 26
+
+We could solve for alpha by finding the difference of the two equations.
+
+subtract equations
+14 = -15 alp mod 26
+
+add 26
+14 = 11 alp mod 26
+
+11 * 1 = 11 mod 26
+11 * 2 = 22 mod 26
+11 * 3 = 33 = 7
+
+add 11 to 7 = 18
+29 = 3
+ 14
+25
+36 = 10
+21 
+32 = 6
+
+11 =17
+12= 28 = 2
+13 = 13
+14 = 24
+15 = 35 = 9
+16 = 20
+17 = 31 = 5
+18 = 16
+19
+
+
+20 * 14 =  (11 * 20) alp 
+280 = 1*alp
+alp = 20
+alp  = 2 * 10
+ = 2 * 2 * 5
+
+2 * 13 = 26
+2 = commun factor
+
+
+19 is encrypted to 10.
+
+10 = 19alp + B mod 26
+3 = alp mod 26
+17 = 4 * 3 +  B mod 26
+
+S = B mod 26 
+
+gcd = grâce commun devise
+

@@ -1,0 +1,53 @@
+Cryptography Notes
+
+1 - Guess the block size and then find the key( M )
+2 - Prove each problem, rm = greater common divisor that dives all the other reminder.  Once you all this, its basically showing that y< x and therefore they all most be equal.
+
+OR & XOR
+
+m1 XOR k
+xor
+m2 XOR K
+
+m1 XOR m2
+
+Chapter 6 in the book.
+
+One-Time Pad has a perfect secrecy.
+
+Public key System
+Why are they not perfect secrecy?
+A function hard to invert but not impossible to invert.
+An exhausted key search, they are not a one-time pad
+
+RSA Algorithm
+First, you have to find to secret odd primes.
+Then find e, such and phi are relatively prime.
+Then fid d, multiple inverse of e mod phi.
+Make n and e public, keep p and q private.
+To encrypt compute c by multiplying m e times mod n.
+To decrypt compute m by multiplying c d times mod n.
+
+What is phi(n) in this case?
+A product over prime factorization of n for avery p in factor of n.
+There is a product of (p^e - p^-e), p^1 - p^0,  
+n = pg.
+(p -1)(g-1)
+
+
+(m^e)^d = 1 mod n
+m^ed = 1 mod n
+
+e d such that e is a multiple of inverse mod phi of n
+ed = 1 mod phi(n)
+phi(n) | ed - 1
+
+phi(n)K =  ed - 1
+ed = phi(n)k + 1
+
+m^ed = m^(phi(n)k + 1) mod n
+m^(phi(n)k)m
+(m^phi(n))^k m
+m mod n
+phi(n)k = ed -1
+ed = phi(n)k + 1

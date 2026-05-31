@@ -1,0 +1,30 @@
+Crypto Notes
+
+X^e mod n
+y^-eC mod n
+x^e = y^-e c mod n
+(xy)^e = c -> xy =m
+
+Midterm talk
+not question about memorizing or doing any really long computation
+
+Analyzing question
+crypto system
+Ask how many possible keys for such system
+or give a simple crypto system and describe a relationship between a crypto system and another one
+
+example shift cipher and other
+y = x + B mod n
+y = alpha x + B mod n
+
+particular similar to the affine cipher
+
+RSA questions, basis of RSA, primality questions,
+crypto system questions, key encryption, and key descriptions,
+describe how algorithms work, by pseudo code
+how the modular exponenciation works, the idea
+
+We can use a cheat sheet, front and back
+
+Not vocabulary, not defining things
+Formulas attach, ..
