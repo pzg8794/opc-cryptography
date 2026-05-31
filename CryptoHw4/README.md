@@ -2,11 +2,13 @@
 
 Path: `CryptoHw4`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
 - `940115assign5Solutions.pdf` (file)
-- `Assignment 4.docx` (file)
-- `assignment3.pdf` (file)
 - `Cryptohw4.pdf` (file)
 - `hw5sol.pdf` (file)
 - `Screen Shot 2013-06-30 at 10.00.25 PM.png` (file)
@@ -25,4 +27,4 @@ Path: `CryptoHw4`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

@@ -2,11 +2,12 @@
 
 Path: `CryptoHw5`
 
+## Purpose
+
+Indexed project directory from the old Portafolio cleanup.
+
 ## Items
 
-- `chapter_8_homework.pdf` (file)
-- `Crypto Homework 5.docx` (file)
-- `Crypto Homework 5.pdf` (file)
 - `FRINTNewCh2324.pdf` (file)
 - `Probability.pdf` (file)
 - `recitation12-3.pdf` (file)
@@ -17,4 +18,4 @@ Path: `CryptoHw5`
 
 ## Notes
 
-This directory was indexed from the old Portafolio Drive source. Large binaries and archives may remain Drive-only.
+README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.

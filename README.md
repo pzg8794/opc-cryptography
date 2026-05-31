@@ -1,13 +1,22 @@
-# Cryptography
+# opc-cryptography
 
 Drive source: https://drive.google.com/drive/folders/1dPgNtC9rmbp9CHKD0utqpEf_mDWuKJ9s
 
-Purpose: Old Project Code item `Cryptography` from the pre-2024 Portafolio Drive archive. Use this repo to inspect source, docs, and project evidence; use Drive for bulky original artifacts.
+Purpose: cleaned old Portafolio repository with documents separated for future reuse and Overleaf conversion.
 
-## Included Top-Level Items
+## Main Directories
+
+- [`papers/`](./papers/README.md) - Research papers, papers, proposals, theses, and publication-like materials.
+- [`reports/`](./reports/README.md) - Reports, lab reports, assignments, final-project writeups, and documentation.
+- [`presentations/`](./presentations/README.md) - Presentations, slides, and posters.
+
+## Top-Level Items
 
 - `CryptoHw4/` (folder)
 - `CryptoHw5/` (folder)
+- `papers/` (folder)
+- `presentations/` (folder)
+- `reports/` (folder)
 - `.gitignore` (file)
 - `940115assign5Solutions.pdf` (file)
 - `940115assign6Solutions.pdf` (file)
@@ -40,10 +49,9 @@ Purpose: Old Project Code item `Cryptography` from the pre-2024 Portafolio Drive
 - `sebenta_EN.pdf` (file)
 - `section 20 hill cipher.pdf` (file)
 - `Trappe_W.,_Washington_L.C.-Introduction_to_Cryptography_with_Coding_Theory-Pearson_Education_Int(2006).pdf` (file)
-## Drive-Only Material
 
-Large binaries, installers, compressed archives, raw videos/audio, build outputs, and dependency caches are intentionally kept in Google Drive instead of GitHub. Use the Drive source link above if you need those original artifacts.
+## Organization Notes
 
-## Directory Coverage
-
-Every directory included in this repo has its own `README.md` index.
+- Large binaries, installers, media, and archives may remain in Google Drive and be referenced from `IMPORT_NOTES.md` or `DRIVE_OVERVIEW.md`.
+- Each included directory has a `README.md` index.
+- `papers/`, `reports/`, and `presentations/` are intentionally separated so later Overleaf work can start from a clean source bucket.
