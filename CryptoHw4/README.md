@@ -4,13 +4,10 @@ Path: `CryptoHw4`
 
 ## Purpose
 
-Indexed project directory from the old Portafolio cleanup.
+Project/source directory imported from Google Drive.
 
 ## Items
 
-- `940115assign5Solutions.pdf` (file)
-- `Cryptohw4.pdf` (file)
-- `hw5sol.pdf` (file)
 - `Screen Shot 2013-06-30 at 10.00.25 PM.png` (file)
 - `Screen Shot 2013-06-30 at 10.00.42 PM.png` (file)
 - `Screen Shot 2013-06-30 at 10.01.10 PM.png` (file)
@@ -27,4 +24,4 @@ Indexed project directory from the old Portafolio cleanup.
 
 ## Notes
 
-README generated during the old Portafolio cleanup. Use the root README and `OVERLEAF_PREP.md` for source and conversion context.
+This README was regenerated after importing all GitHub-appropriate simple files from Drive.
